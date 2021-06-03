@@ -1,0 +1,428 @@
+*{
+    box-sizing: border-box;
+}
+
+/* navbar css */
+nav{
+    background-color: whitesmoke;
+    border-bottom: 2px solid rgb(197, 195, 195);
+    box-shadow: 0px 3px 11px 0px rgba(202,202,202,1);
+    z-index: 500;
+}
+.nav-item a{
+    color: black !important;    
+    font-size: 18px;
+    font-weight: 600;
+}
+#navbarid li a:hover{
+    color: #02AEAE !important;    
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid #333333;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 700;
+}
+
+/* carousel css */
+.carousel.slide img{
+    height: 450px;
+   width: 100% !important;
+}
+/* .carousel-caption p{
+    width: 400px;
+    margin: 50px auto;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding: 5px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 576px){  
+    .carousel-caption p{
+     margin-left: -30px;
+    }    
+} */
+/* short info coding */
+.short-info{
+    box-shadow: 0 2px 20px rgb(0, 0, 0, 0.5);
+    margin: 5px;
+}
+.short-info h4{
+    color: black;
+    font-size: 20px;
+    padding: 10px 12px;
+}
+.short-info p{
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    color: black;
+    padding: 8px 12px;
+    
+}
+/* welcome banner css */
+
+.welcome-banner h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #333333;
+
+}
+.welcome-banner span{
+    color: #02AEAE;
+
+}
+.welcome-banner p{
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: black;
+
+}
+.welcome-banner button{
+    background-color: #02AEAE;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+.welcome-banner button:hover{
+    background-color: white;
+    color: #02AEAE;
+    border: 2px solid #02AEAE;
+        }
+
+/* our doctors coding */
+
+.doctors-banner h2{
+    color: #333333;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+   
+}
+.doctors-banner span{
+    color: #02AEAE;
+}
+.doctors-banner p{
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+.doctors-banner button{
+    background-color: #02AEAE;
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+
+}
+.doctors-banner button:hover{
+    background-color: white;
+    color: #02AEAE;
+    border: 2px solid #02AEAE;
+}
+/* services css */
+
+.services-banner h2{
+    color: #333333;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+   
+   
+}
+.services-banner span{
+    color: #02AEAE;
+}
+.services-banner .medical-services .icon{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 0 2px 20px rgb(0, 0, 0, 0.4);
+    margin: 8px auto;
+}
+.services-banner .medical-services .icon i{
+    display: block;
+    line-height: 80px;
+    font-size: 25px;
+    color: black;
+}
+.medical-services{
+    /* border: 1px solid black; */
+    padding: 60px 50px;
+    height: 350px;
+    transition: 0.5s;
+}
+.services-banner .medical-services h3{
+    margin-top: 20px;
+}
+.services-banner .medical-services p{
+    margin-top: 20px;
+    color: white;
+}
+.services-banner .medical-services button{
+    color: white;
+    background:none;
+    margin-top: -3px;
+    border:2px solid white;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.services-banner .medical-services:hover{
+    background-image: linear-gradient(to bottom, #2ab9b9 0%, #d5dbdf 100%);
+    padding: 30px 50px;
+    border-radius: 25px;
+}
+.services-banner .medical-services button:hover{
+    border: 2px solid #19AEAE;
+    background-color:#19AEAE ;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#service-button{
+    background-color: #02AEAE;
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white !important;
+    font-size: 16px;
+    
+}
+#service-button:hover{
+    background-color: white;
+    color: #02AEAE !important;
+    border: 2px solid #02AEAE;
+    
+    
+}
+/* footer css */
+.footer-banner{
+    background-color: #333333;
+    color: white;
+}
+
+.footer-banner ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom:12px;
+    margin-right: 35px;
+}
+.footer-banner ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.footer-banner .fa{
+    color: white;
+    margin-right: 35px;
+    font-size: 20px;
+}
+#copyright{
+    background-color: #02AEAE;
+}
+#copyright p{
+    font-weight: 700;
+    color: white;
+   padding-top: 10px; 
+    font-size: 16px;
+}
+.navbar-toggler-icon{
+    color: green;
+}
+ /***************************Service Page Css*******************************/
+ .centered{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    /* border: 1px solid black; */
+    transform: translate(-50%, -50%);
+    z-index: 2;
+ 
+ 
+}
+
+  /* service side bar css */
+  .service-side-bar .emergency-section{
+      /* border: 1px solid yellow; */
+      padding: 20px;
+      background-color: #8FD0E2;
+      margin-top: 50%;
+     
+  }
+  @media only screen and (max-width:768px) {
+    .service-side-bar .emergency-section{
+        margin-top: 8px;
+    }
+    .dental-service-content{
+        margin-top: 10px;
+    }
+      
+  }
+  .service-side-bar .emergency-section small{
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+  }
+  .service-side-bar .emergency-section p{
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: black;
+
+  }
+  .service-side-bar .emergency-section button{
+      background-color: #F7F7F7;
+      /* border: 1px solid #333333; */
+      border-radius: 12px;
+      color: #333333;
+      font-weight: 600;
+      padding: 5px 15px;
+  }
+  .service-side-bar .emergency-section button:hover{
+      background-color: #02AEAE;
+      border: 2px solid #02AEAE;
+      color: white;
+  }
+  .service-side-bar .departments-section{
+      background-color: #02AEAE;
+      padding: 20px;
+  }
+  .service-side-bar .departments-section ul li{
+     list-style: none;
+     border-bottom: 1px solid rgb(90, 89, 89);
+     padding: 5px;
+     margin-right: 25px;
+     box-shadow: 0 2px 20px rgb(0, 0, 0, 0.1);
+     margin-top: 10px;
+  }
+  .service-side-bar .departments-section li a{
+      color: white;
+      font-size: 17px;
+  }
+  .service-side-bar .information-section{
+      background-color: #8FD0E2;
+      padding: 20px;
+  }
+  .service-side-bar .information-section p{
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: black;
+  }
+
+  /* dental care css */
+
+  .dental-service-content h4{
+      color: #333333;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-align: left;
+
+  }
+  .dental-service-content p{
+      color: black;
+      letter-spacing: 1px;
+      font-size: 15px;
+      text-align: left;
+      overflow: hidden;
+  }
+  /* radiology care css */
+  .radiology-service-content h4{
+    color: #333333;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  .radiology-service-content p{
+    color: black;
+      letter-spacing: 1px;
+      font-size: 15px;
+      text-align: left;
+  }
+  /* surgery care css */
+  .surgery-service-content h4{
+    color: #333333;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  .surgery-service-content p{
+    color: black;
+      letter-spacing: 1px;
+      font-size: 15px;
+      text-align: left;
+  }
+  /* nutrition care css */
+  .nutrition-service-content h4{
+    color: #333333;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  .nutrition-service-content p{
+    color: black;
+      letter-spacing: 1px;
+      font-size: 15px;
+      text-align: left;
+  }
+  /* what we do css */
+  .dentistry-img img{
+      width: 100%;
+      height: 350px !important;
+      box-shadow: 0 2px 20px rgb(0, 0, 0, 0.5);
+      transition: transform .5s, filter 1.5s ease-in-out;
+      
+      
+  }
+  .dentistry-img img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.0);
+    box-shadow: 0 2px 20px rgb(0, 0, 0, 0.5);
+  }
+
+.dentistry-content{
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  /* font-size: 18px; */
+  font-size: 2vw;
+  font-weight: 700;
+  color: white;
+    transform: translate(-50%,-50%);
+  
+}
+
+/* @media only screen and (max-width: 992px) {
+    .dentistry-content{
+        height: auto;
+
+    }
+    
+} */
+
+/* contact us page css */
+#working-hours li{
+    list-style: none;
+    border-bottom: 1px solid rgb(90, 89, 89);
+    padding: 8px;
+    margin-right: 25px;
+    box-shadow: 0 2px 20px rgb(0, 0, 0, 0.1);
+    margin-top: 10px;
+   
+}
